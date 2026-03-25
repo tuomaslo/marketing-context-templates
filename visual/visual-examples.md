@@ -4,6 +4,7 @@
 This file is a catalogue of your actual brand images. The AI uses it to reference real assets accurately — writing alt text, describing images in content, generating image briefs that match your existing style, and instructing designers or AI image tools.
 
 Depending on how and where you use this context, often a great way is just to have example images for the AI to use consistently. Have good metadata for the images in place. Naming the files in an informative way is the first step.
+
 ---
 
 ## How to Use This File
