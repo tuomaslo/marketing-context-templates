@@ -42,7 +42,44 @@ The context library doesn't just make AI better. It forces you to articulate thi
 
 ## How to Use These Templates
 
-### Option 1 — Paste into any AI chat (Claude, ChatGPT, Gemini)
+### Option 1 — Fork, fill, and load into an AI project (Claude, ChatGPT, Gemini)
+
+1. Fork this repo and fill in the templates with your brand details
+2. Download the filled files (or just the identity + guardrails files to start)
+3. In Claude, ChatGPT, or Gemini, create a new **Project**
+4. Upload the downloaded files as context/knowledge files to the project
+5. Every conversation in that project now has your full brand context automatically loaded — no pasting required
+
+### Option 2 — Use with Claude Code or Cursor
+
+After forking the repo, clone it to your computer and open the folder in Claude Code or Cursor. The AI reads all your context files directly — no copy-pasting needed.
+
+- **Clone your fork:** go to your forked repo on GitHub, click the green **Code** button, copy the URL, then run `git clone [that URL]` in your terminal
+- **Open in Claude Code:** navigate into the folder in your terminal and type `claude` to start
+- **Open in Cursor:** open Cursor and use File → Open Folder to open the cloned folder
+- Ask the AI to help fill in templates, create content, or update your context files — it has access to all files at once
+- Save changes to keep your context library current over time
+
+### Option 3 — Use as a system prompt
+
+In Claude, ChatGPT, or any tool that supports custom instructions or system prompts:
+
+1. Combine your key files (brand-core + voice-guide + audience-profile + dont-list) into one block
+2. Set it as your default system prompt or custom instructions
+3. Every conversation starts with your brand context already loaded
+
+**Claude custom instructions example:**
+```
+You are a marketing assistant for [YOUR BRAND]. Always refer to the following brand context when planning marketing or writing any content:
+
+[paste your combined context files here]
+
+Always follow the voice guide and never use the banned phrases in the don't list.
+```
+
+### Option 4 — Paste into any AI chat (Claude, ChatGPT, Gemini)
+
+> This system is designed to get you away from copy-pasting context every time — but pasting is a perfectly good way to get started and feel the difference before setting up a project or integration.
 
 1. Fork this repo and fill in the templates with your brand details
 2. When starting a content task, paste the relevant files as context:
@@ -64,23 +101,6 @@ Which files to include depends on the task:
 - **Planning a campaign:** identity + strategy + intelligence
 - **Writing about a product update:** identity + proof/product-updates + channel files
 - **Competitive content:** identity + proof/positioning + intelligence
-
-### Option 2 — Use as a system prompt
-
-In Claude, ChatGPT, or any tool that supports custom instructions or system prompts:
-
-1. Combine your key files (brand-core + voice-guide + audience-profile + dont-list) into one block
-2. Set it as your default system prompt or custom instructions
-3. Every conversation starts with your brand context already loaded
-
-**Claude custom instructions example:**
-```
-You are a marketing assistant for [YOUR BRAND]. Always refer to the following brand context when planning marketing or writing any content:
-
-[paste your combined context files here]
-
-Always follow the voice guide and never use the banned phrases in the don't list.
-```
 
 ## Getting Started
 
