@@ -163,7 +163,6 @@ marketing-context-templates/
 ├── channel/
 │   ├── linkedin.md            # Specs, top performers, hooks, formats
 │   ├── twitter.md             # Specs, tweet formats, top performers
-│   ├── instagram.md           # Specs, caption structures, top performers
 │   ├── email.md               # Program overview, subject patterns, top emails
 │   ├── website.md             # Blog + landing page playbook, top content
 │   └── website-reference.md   # Your actual website copy (paste or scrape)
