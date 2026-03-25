@@ -4,7 +4,7 @@
 
 Every marketer has done it: opened ChatGPT, typed "write a LinkedIn post about our new feature", got something generic back, spent 20 minutes editing it into something that actually sounds like you and then repeated the whole process tomorrow.
 
-To fix this, we've built brand context systems for 20+ brands. Through hundreds of iterations we've ended up with a base structure that's shared here. 
+To fix this, we've built brand knowledge systems for 20+ brands. After hundreds of iterations we've ended up with a base context file structure that's shared here. 
 
 Take these templates, fill with your brand and get AI to work for you at a completely new level.
 
