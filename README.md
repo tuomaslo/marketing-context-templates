@@ -127,9 +127,9 @@ This gets you a solid 80% fill in minutes rather than hours. The remaining 20% �
 
 Fill in these three files first — they're included in every prompt and have the most impact:
 
-1. **`identity/brand-core.md`** — 15 minutes. Your mission, what you do, who you serve.
-2. **`identity/voice-guide.md`** — 30 minutes. How you sound. Include real examples.
-3. **`identity/audience-profile.md`** — 20 minutes. Who you're talking to and what they care about.
+1. **`identity/brand-core.md`** Your mission, what you do, who you serve.
+2. **`identity/voice-guide.md`** How you sound. Include real examples.
+3. **`identity/audience-profile.md`** Who you're talking to and what they care about.
 
 With just these three files filled in, your AI output will be noticeably better.
 
