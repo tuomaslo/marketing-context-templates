@@ -44,7 +44,7 @@ The context library doesn't just make AI better. It forces you to articulate thi
 
 ### Option 1 — Download and load into an AI project (Claude, ChatGPT, Gemini)
 
-1. Download this repository from <> Code --> Donwload ZIP
+1. Download this repository from <> Code --> Download ZIP
 2. Fill the files (more on how to do this below, Under Getting started)
 3. In Claude, ChatGPT, or Gemini, create a new **Project**
 4. Upload the downloaded files as context/knowledge files to the project
