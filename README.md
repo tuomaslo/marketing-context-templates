@@ -42,19 +42,19 @@ The context library doesn't just make AI better. It forces you to articulate thi
 
 ## How to Use These Templates
 
-### Option 1 — Fork, fill, and load into an AI project (Claude, ChatGPT, Gemini)
+### Option 1 — Download and load into an AI project (Claude, ChatGPT, Gemini)
 
-1. Fork this repo and fill in the templates with your brand details
-2. Download the filled files (or just the identity + guardrails files to start)
+1. Download this repository from <> Code --> Donwload ZIP
+2. Fill the files (more on how to do this below, Under Getting started)
 3. In Claude, ChatGPT, or Gemini, create a new **Project**
 4. Upload the downloaded files as context/knowledge files to the project
-5. Every conversation in that project now has your full brand context automatically loaded — no pasting required
+5. The project now has the empty files
 
 ### Option 2 — Use with Claude Code or Cursor
 
-After forking the repo, clone it to your computer and open the folder in Claude Code or Cursor. The AI reads all your context files directly — no copy-pasting needed.
+After cloning the repo to your computer, open the folder in Claude Code or Cursor. The AI reads all your context files directly — no copy-pasting needed.
 
-- **Clone your fork:** go to your forked repo on GitHub, click the green **Code** button, copy the URL, then run `git clone [that URL]` in your terminal
+- **Clone:** click the green **Code** button, copy the URL, then run `git clone [that URL]` in your terminal
 - **Open in Claude Code:** navigate into the folder in your terminal and type `claude` to start
 - **Open in Cursor:** open Cursor and use File → Open Folder to open the cloned folder
 - Ask the AI to help fill in templates, create content, or update your context files — it has access to all files at once
@@ -104,22 +104,22 @@ Which files to include depends on the task:
 
 ## Getting Started
 
-### 1. Fork or Download this repo
+### 1. Download this repo
 
-Click **Fork** at the top right. This becomes your private brand context library. Alternatively, click the Code dropdown and download this as a Zip file.
+Click **Code** at the top right and download this as a Zip file.
 
 ### 2. Fill the templates — the easy way
 
 The fastest way to fill these templates is to let an AI do the first pass for you:
 
 1. Open a new conversation in Claude or ChatGPT
-2. Paste the template file(s) you want to fill
-3. Give it everything it needs to work from:
+2. Find the template files from your Download folder and paste the template file(s) you want to fill (if you are using Claude Cowork, you can work with the files directly, no need to copypaste anything)
+4. Give the session everything it needs to work from:
    - Files you have (old brand docs, a deck, past content)
    - Memory the AI already has about you (if you've used a Claude Project or ChatGPT memory extensively, it may already know things aboyt your brand)
    - Your website URL as additional reference
-4. Give it this instruction: **"Fill in these templates using only what you can find in the materials I've given you. Do not invent or assume anything. If you don't have enough information to fill a field, leave it blank or flag it. No hallucinations — I will review everything before use."**
-5. Review every field manually before committing. The AI will get most things right but will occasionally fill in something plausible-sounding that isn't quite true. That's your job to catch.
+5. Give it this instruction: **"Fill in these templates using only what you can find in the materials I've given you. Do not invent or assume anything. If you don't have enough information to fill a field, leave it blank or flag it. No hallucinations — I will review everything before use."**
+6. Review every field manually before committing. The AI will get most things right but will occasionally fill in something plausible-sounding that isn't quite true. That's your job to catch.
 
 This gets you a solid 80% fill in minutes rather than hours. The remaining 20% — the specific examples, exact numbers, and nuanced takes — you fill in yourself.
 
