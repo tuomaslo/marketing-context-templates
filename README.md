@@ -113,12 +113,13 @@ Click **Code** at the top right and download this as a Zip file.
 The fastest way to fill these templates is to let an AI do the first pass for you:
 
 1. Open a new conversation in Claude or ChatGPT
-2. Find the template files from your Download folder and paste the template file(s) you want to fill (if you are using Claude Cowork, you can work with the files directly, no need to copypaste anything)
+2. Find the template files from your Download folder and paste the template file(s) you want to fill
+3. If you are using Claude Cowork, you can work with the files directly, no need to copypaste anything. Highly Recommended!
 4. Give the session everything it needs to work from:
-   - Files you have (old brand docs, a deck, past content)
+   - Files you have (old brand docs, a deck, past content linekdin posts e.g.)
    - Memory the AI already has about you (if you've used a Claude Project or ChatGPT memory extensively, it may already know things aboyt your brand)
    - Your website URL as additional reference
-5. Give it this instruction: **"Fill in these templates using only what you can find in the materials I've given you. Do not invent or assume anything. If you don't have enough information to fill a field, leave it blank or flag it. No hallucinations — I will review everything before use."**
+5. Give it this instruction: **"Fill in [filename] file template using only what you can find in the materials I've given you. Do not invent or assume anything. If you don't have enough information to fill a field, leave it blank or flag it. No hallucinations — I will review everything before use."**
 6. Review every field manually before committing. The AI will get most things right but will occasionally fill in something plausible-sounding that isn't quite true. That's your job to catch.
 
 This gets you a solid 80% fill in minutes rather than hours. The remaining 20% — the specific examples, exact numbers, and nuanced takes — you fill in yourself.
