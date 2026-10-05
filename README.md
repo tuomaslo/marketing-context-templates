@@ -1,209 +1,90 @@
 # Marketing Context Templates
 
-**Stop re-explaining your brand to AI every single time.**
+**Stop re-explaining your brand to AI.**
 
-Every marketer has done it: opened ChatGPT, typed "write a LinkedIn post about our new feature", got something generic back, spent 20 minutes editing it into something that actually sounds like you and then repeated the whole process tomorrow.
+15 short Markdown templates for your brand, audience, products, and marketing channels. Fill the files you need, then give them to your AI when you work.
 
-To fix this, we've built brand knowledge systems for 20+ brands. After hundreds of iterations we've ended up with a base context file structure that's shared here. 
+Built by [Tuomas Lounamaa](https://github.com/tuomaslo). I help tech companies with **agent discovery** — so their products get found and used by AI agents — and **GTM strategy**, including ICP targeting and finding practical ways to reach the right customers.
 
-Take these templates, fill with your brand and get AI to work for you at a completely new level.
+**[Read more about my work →](https://share.carryo.io/tuomas)**
 
-## What Is This
+## Start with five files
 
-A set of **19 structured markdown templates** organized into 7 categories. Designed to capture everything an AI needs to pland and create in your voice, for your audience, in your channels:
+Download this repo using **Code → Download ZIP**, or clone it. Start by filling these files for your own brand:
 
-| Category | Files | What it captures |
-|----------|-------|-----------------|
-| `identity/` | brand-core, voice-guide, audience-profile | Who you are, how you sound, who you're talking to |
-| `proof/` | achievements, positioning, product-updates | What you've done, how you compete, what you've shipped |
-| `channel/` | linkedin, twitter, instagram, email, website, website-reference | Per-channel specs, best performers, and formats |
-| `guardrails/` | dont-list, quality-checklist | What to never say, and what good looks like |
-| `visual/` | visual-brand, visual-examples | Brand look and feel, image assets |
-| `strategy/` | strategy | How you market — channels, cadence, campaigns |
-| `intelligence/` | competitive-landscape, industry-trends | What's happening in your market |
+1. [Brand core](identity/brand-core.md) — what you do and why it matters.
+2. [Voice guide](identity/voice-guide.md) — how you sound, with examples.
+3. [Audience profile](identity/audience-profile.md) — who you serve and what they need.
+4. [Guardrails](guardrails/guardrails.md) — what to avoid and what to check.
+5. One [channel template](channel/) — wherever you are writing next.
 
-Each file has clear instructions, concrete examples, and `[PLACEHOLDER]`-style prompts. Fill them in once, update them as you grow, and use them everywhere.
+See the [completed Linear example](examples/linear/README.md) before filling your own. Add the other templates when a task needs them.
 
-## Why This Works
+## Fill the files with AI
 
-AI tools hallucinate generic content because they're given generic prompts. When you give them structured, specific context about your brand, the output quality jumps dramatically.
+Give your AI the selected templates, your website, product documentation, and a few approved examples. In a file-based agent, open the downloaded folder and ask it to read this README. In a chat, attach or paste the files.
 
-Teams using a properly filled context library report:
+```text
+Fill the selected marketing context templates for [BRAND].
+Use these sources: [WEBSITE, PRODUCT DOCS, APPROVED EXAMPLES].
 
-- **Fewer revision rounds** — output that sounds like you from draft one
-- **Consistent brand voice** across every channel and every team member
-- **Less hallucination** — specific brand facts replace made-up claims
-- **Faster production** — skip the "re-explain the brand" step every time
-- **Better onboarding** — new team members or agencies get up to speed faster
+Keep each file brief and specific. Use these labels where needed:
+- Confirmed: supported by a source or approved by the brand owner.
+- Proposed: suggested wording, interpretation, or a decision to review.
+- Unknown: important information the sources do not establish.
 
-**The big shift is moving away from editing the output and working on the system that generates the output. Context engineering is what enables scale and consistent quality.**
+Link important factual claims to their sources. Give changing facts,
+such as pricing, a checked date. Keep product facts and customer proof
+in proof/product-and-proof.md; reference them elsewhere.
+Mark examples Published or Draft. Only describe performance if measured.
+Do not invent customer quotes, metrics, capabilities, or strategy.
 
-The context library doesn't just make AI better. It forces you to articulate things about your brand that often live only in someone's head. That clarity pays dividends beyond AI usage.
-
-## How to Use These Templates
-
-### Option 1 — Download and load into an AI project (Claude, ChatGPT, Gemini)
-
-1. Download this repository from <> Code --> Download ZIP
-2. Fill the files (more on how to do this below, Under Getting started)
-3. In Claude, ChatGPT, or Gemini, create a new **Project**
-4. Upload the downloaded files as context/knowledge files to the project
-5. The project now has the empty files
-
-### Option 2 — Use with Claude Code or Cursor
-
-After cloning the repo to your computer, open the folder in Claude Code or Cursor. The AI reads all your context files directly — no copy-pasting needed.
-
-- **Clone:** click the green **Code** button, copy the URL, then run `git clone [that URL]` in your terminal
-- **Open in Claude Code:** navigate into the folder in your terminal and type `claude` to start
-- **Open in Cursor:** open Cursor and use File → Open Folder to open the cloned folder
-- Ask the AI to help fill in templates, create content, or update your context files — it has access to all files at once
-- Save changes to keep your context library current over time
-
-### Option 3 — Use as a system prompt
-
-In Claude, ChatGPT, or any tool that supports custom instructions or system prompts:
-
-1. Combine your key files (brand-core + voice-guide + audience-profile + dont-list) into one block
-2. Set it as your default system prompt or custom instructions
-3. Every conversation starts with your brand context already loaded
-
-**Claude custom instructions example:**
-```
-You are a marketing assistant for [YOUR BRAND]. Always refer to the following brand context when planning marketing or writing any content:
-
-[paste your combined context files here]
-
-Always follow the voice guide and never use the banned phrases in the don't list.
+Return the filled files and a short list of decisions or missing facts
+for me to review. Use the Linear example as a format reference only.
 ```
 
-### Option 4 — Paste into any AI chat (Claude, ChatGPT, Gemini)
+Review the result. Replace placeholders with useful content or **Unknown**, and remove sections that do not help. Save the filled files in your own working copy. Keep examples you want the AI to learn from.
 
-> This system is designed to get you away from copy-pasting context every time — but pasting is a perfectly good way to get started and feel the difference before setting up a project or integration.
+## Which files should the AI read?
 
-1. Fork this repo and fill in the templates with your brand details
-2. When starting a content task, paste the relevant files as context:
+For writing, read the three identity files, guardrails, and the chosen channel. Then add only what the task needs:
 
-```
-Here is my brand context:
+| Task | Extra context |
+|---|---|
+| Product, pricing, or customer claims | [Product and proof](proof/product-and-proof.md) |
+| Comparison or sales copy | [Positioning](proof/positioning.md), relevant [competitor research](intelligence/competitive-landscape.md) |
+| Campaign planning | [Strategy](strategy/strategy.md), relevant [trends](intelligence/industry-trends.md) |
+| Visual brief | [Visual brand](visual/visual-brand.md) |
 
-[paste brand-core.md]
-[paste voice-guide.md]
-[paste audience-profile.md]
-[paste linkedin.md — if writing LinkedIn content]
-[paste dont-list.md]
+In a chat or project, supply these files using the tool's supported attachments or knowledge setup. A folder of Markdown files does not load itself into every prompt.
 
-Now write a LinkedIn post announcing our new [feature]. The post should...
-```
+**Resolve conflicts:** follow the latest owner-approved direction and current product facts. Older published copy and draft examples must not override them. Flag unresolved contradictions. Leave out unknown claims, or ask when they are essential to the task.
 
-Which files to include depends on the task:
-- **Writing content:** identity files + relevant channel file + guardrails
-- **Planning a campaign:** identity + strategy + intelligence
-- **Writing about a product update:** identity + proof/product-updates + channel files
-- **Competitive content:** identity + proof/positioning + intelligence
+## The full library
 
-## Getting Started
+| Category | Templates |
+|---|---|
+| Identity | [Brand core](identity/brand-core.md), [Voice](identity/voice-guide.md), [Audience](identity/audience-profile.md) |
+| Proof | [Product and proof](proof/product-and-proof.md), [Positioning](proof/positioning.md) |
+| Channel | [LinkedIn](channel/linkedin.md), [X](channel/twitter.md), [Instagram](channel/instagram.md), [Email](channel/email.md), [Website](channel/website.md) |
+| Guardrails | [Guardrails](guardrails/guardrails.md) |
+| Visual | [Visual brand](visual/visual-brand.md) |
+| Strategy | [Strategy](strategy/strategy.md) |
+| Intelligence | [Competitors](intelligence/competitive-landscape.md), [Trends](intelligence/industry-trends.md) |
 
-### 1. Download this repo
+Keep these files focused. Update a rule when you repeatedly correct the AI. Refresh product facts when the product changes. Use source links inside the relevant files; no separate source register is required.
 
-Click **Code** at the top right and download this as a Zip file.
+## Updating an older copy
 
-### 2. Fill the templates — the easy way
+If you already filled the previous templates, move your content into the merged files before removing your old copies:
 
-The fastest way to fill these templates is to let an AI do the first pass for you:
+| Previous files | New home |
+|---|---|
+| `proof/achievements.md` + `proof/product-updates.md` | `proof/product-and-proof.md` |
+| `guardrails/dont-list.md` + `guardrails/quality-checklist.md` | `guardrails/guardrails.md` |
+| `channel/website.md` + `channel/website-reference.md` | `channel/website.md` |
+| `visual/visual-brand.md` + `visual/visual-examples.md` | `visual/visual-brand.md` |
 
-1. Open a new conversation in Claude or ChatGPT
-2. Find the template files from your Download folder and paste the template file(s) you want to fill
-3. If you are using Claude Cowork, you can work with the files directly, no need to copypaste anything. Highly Recommended!
-4. Give the session everything it needs to work from:
-   - Files you have (old brand docs, a deck, past content linekdin posts e.g.)
-   - Memory the AI already has about you (if you've used a Claude Project or ChatGPT memory extensively, it may already know things aboyt your brand)
-   - Your website URL as additional reference
-5. Give it this instruction: **"Fill in [filename] file template using only what you can find in the materials I've given you. Do not invent or assume anything. If you don't have enough information to fill a field, leave it blank or flag it. No hallucinations — I will review everything before use."**
-6. Review every field manually before committing. The AI will get most things right but will occasionally fill in something plausible-sounding that isn't quite true. That's your job to catch.
+## Contributing and license
 
-This gets you a solid 80% fill in minutes rather than hours. The remaining 20% — the specific examples, exact numbers, and nuanced takes — you fill in yourself.
-
-### 3. Start with Identity (highest ROI)
-
-Fill in these three files first — they're included in every prompt and have the most impact:
-
-1. **`identity/brand-core.md`** Your mission, what you do, who you serve.
-2. **`identity/voice-guide.md`** How you sound. Include real examples.
-3. **`identity/audience-profile.md`** Who you're talking to and what they care about.
-
-With just these three files filled in, your AI output will be noticeably better.
-
-### 4. Add Guardrails
-
-4. **`guardrails/dont-list.md`** — 20 minutes. Every phrase that makes you wince, written down.
-5. **`guardrails/quality-checklist.md`** — 10 minutes. Customize the checklist for your brand.
-
-### 5. Fill in your active channels
-
-Add your actual top-performing posts and channel specs to the channel files you use. The examples section of each playbook is where the real quality improvement comes from — the AI learns your pattern from real examples.
-
-### 6. Fill in Proof and Strategy when you need deeper outputs
-
-The proof and strategy files make a big difference for planning content and writing anything competitive or credibility-focused.
-
-## File Naming & Structure
-
-```
-marketing-context-templates/
-├── identity/
-│   ├── brand-core.md          # Mission, vision, values, what you do
-│   ├── voice-guide.md         # How you sound, forbidden phrases, tone by context
-│   └── audience-profile.md    # Who you're talking to, their goals and pain points
-│
-├── proof/
-│   ├── achievements.md        # Stats, case studies, testimonials, milestones
-│   ├── positioning.md         # Competitive positioning, unique advantages
-│   └── product-updates.md     # Changelog for content use (connect to Linear)
-│
-├── channel/
-│   ├── linkedin.md            # Specs, top performers, hooks, formats
-│   ├── twitter.md             # Specs, tweet formats, top performers
-│   ├── email.md               # Program overview, subject patterns, top emails
-│   ├── website.md             # Blog + landing page playbook, top content
-│   └── website-reference.md   # Your actual website copy (paste or scrape)
-│
-├── guardrails/
-│   ├── dont-list.md           # Banned phrases, tone mistakes, claim rules
-│   └── quality-checklist.md   # Pre-publish checklist, AI output quality signals
-│
-├── visual/
-│   ├── visual-brand.md        # Colors, fonts, visual mood, image style
-│   └── visual-examples.md     # Actual image URLs and when to use them
-│
-├── strategy/
-│   └── strategy.md            # Active channels, cadence, sequences, tool stack
-│
-└── intelligence/
-    ├── competitive-landscape.md   # Competitor tracking, positioning gaps
-    └── industry-trends.md         # Market forces, emerging topics, audience shifts
-```
-
-## Tips for Getting the Most Out of This
-
-**Be specific, not aspirational.** The voice guide works because of the specific "never say X, say Y instead" entries — not the abstract "we sound professional" descriptions. Specificity is what separates useful context from generic filler.
-
-**Use real examples.** Wherever you feel the template and example structures don't quite work for you, just copypaste example for that category of knowledge. Especially when you go closer to the channel playbook files, these have a "top performing posts" section. Filling those in with your actual best content is the single highest-ROI thing you can do. AI loves to use patterns from real examples.
-
-**Update it when the AI gets it wrong.** Every time you edit AI output and think "it should never do that again" — add it to `dont-list.md`. The file compounds over time.
-
-**No need to fill it all in at once.** Start with Identity and Guardrails. Add channels as you use them. 
-
-Fill out Strategy and Intelligence files when you want to do strategic planning with AI. These are also highest maintenance and we recomend setting scheduled, regular updates.
-
-**Keep the files focused.** Longer isn't better. A focused 300-word voice guide beats a sprawling 2,000-word one that dilutes the signal with filler. This also makes it harder for you and your colleagues to update. Filling these files with a lot of AI slop is what you want to stricly avoid.
-
-## Contributing
-
-Found a template structure that works better? Have a file type that should be in here? Ideas, PRs and issues welcome.
-
-## License
-
-Fork it, adapt it, use it however you want.
-
-*Built by [tuomaslo](https://github.com/tuomaslo) 
+Ideas, issues, and pull requests are welcome. [MIT licensed](LICENSE): copy, adapt, and use the templates.
