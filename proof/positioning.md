@@ -1,74 +1,30 @@
 # Positioning
-**Bucket:** Proof — included for competitive and credibility content
 
-This file tells the AI how to talk about you in the context of alternatives. Critical for landing pages, comparison content, and sales materials.
+Use for sales, comparisons, and landing pages. Treat new positioning as Proposed until reviewed.
 
----
+## Positioning statement
 
-## One-Line Positioning Statement
+[BRAND] is [CATEGORY] for [AUDIENCE] who need [JOB OR OUTCOME]. We focus on [RELEVANT DIFFERENCE].
 
-> [YOUR BRAND] is the [category] for [specific audience] that [specific value] by [mechanism / how you deliver it].
+## Alternatives
 
-**Example:** "Marketing Context Templates is the AI platform for B2B marketing teams that ensures every output sounds on-brand by connecting the AI to a structured, living knowledge base about your company."
+[What customers use today: a competitor, manual process, or doing nothing.]
 
-Keep this updated. If you can't complete this sentence cleanly, your positioning needs work.
+Detailed research belongs in [Competitive landscape](../intelligence/competitive-landscape.md).
 
----
+## Reasons to choose us
 
-## Category Definition
+- **[Difference]:** [Why it matters for this audience.] Evidence: [Link to product facts, customer proof, or relevant research.]
 
-**We play in:** [e.g., "AI content generation", "GTM intelligence", "marketing automation"]
+Call something unique only when the comparison supports that claim.
 
-**We want to own:** [The specific niche or angle you're claiming]
-> *Example: "Brand-aware AI for lean marketing teams — not the general-purpose AI assistant."*
+## Fit and boundaries
 
-**We are NOT:** [Category you're deliberately distancing from]
-> *Example: "We're not a generic AI writer (like Jasper or Copy.ai). We're a brand intelligence system that happens to generate content."*
+- **Strong fit:** [Use case where we can help.]
+- **Poor fit:** [Expectation or requirement we do not meet.]
 
----
+## Value and objections
 
-For competitor-by-competitor analysis and sales talk tracks, see `intelligence/competitive-landscape.md`.
+[How to explain the value and answer common buying objections without unsupported savings claims.]
 
-## Our Unique Advantages
-
-These are the things we're genuinely better at — supported by evidence:
-
-### 1. [Advantage — e.g., "Brand context that sticks"]
-**What it is:** [Explanation]
-**Why competitors can't easily copy it:** [Moat or structural reason]
-**Proof:** [Customer quote, metric, or example]
-
-### 2. [Advantage]
-**What it is:** [Explanation]
-**Why competitors can't easily copy it:** [Reason]
-**Proof:** [Evidence]
-
-### 3. [Advantage]
-**What it is:** [Explanation]
-**Why competitors can't easily copy it:** [Reason]
-**Proof:** [Evidence]
-
----
-
-## What We're Not (And Why That's a Feature)
-
-Being clear about what you don't do builds trust and sets expectations correctly:
-
-- **We are NOT a general-purpose AI assistant.** [Why this is actually good for your customer]
-- **We are NOT [common misconception].** [Clarification]
-- **We do NOT [feature you deliberately don't have].** [Why you made this choice]
-
----
-
-## Pricing Positioning
-
-**How we think about price:**
-> [e.g., "We price relative to the cost of one hour of a marketer's time. If this saves 4 hours a week, the math is obvious."]
-
-**How to handle pricing objections:**
-- "[Objection]" → "[Response]"
-- "[Objection]" → "[Response]"
-
----
-
-*Review and update this file every time a new competitor enters the market or you find yourself losing deals for a reason you haven't addressed here.*
+Refer to [Product and proof](product-and-proof.md) for prices and capabilities. Do not duplicate them here.
