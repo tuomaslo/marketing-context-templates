@@ -2,6 +2,10 @@
 
 **Stop re-explaining your brand to AI.**
 
+Every marketer has done it: opened ChatGPT, typed "write a LinkedIn post about our new feature", got something generic back, spent 20 minutes editing it into something that actually sounds like you and then repeated the whole process tomorrow.
+
+To fix this, we've built brand knowledge systems for 20+ brands. After hundreds of iterations we've ended up with a base context file structure that's shared here.
+
 15 short Markdown templates for your brand, audience, products, and marketing channels. Fill the files you need, then give them to your AI when you work.
 
 Built by [Tuomas Lounamaa](https://github.com/tuomaslo). I help tech companies with **agent discovery** — so their products get found and used by AI agents — and **GTM strategy**, including ICP targeting and finding practical ways to reach the right customers.
